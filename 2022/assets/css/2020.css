@@ -1,0 +1,185 @@
+body {
+	font-family: Helvetica,sans-serif;	
+	 cursor: url("cursor.png"), auto;
+}
+
+@font-face {
+	font-family: Snell; 
+	src: url(Snell.otf);
+}
+
+.brsmall{
+	display: block;
+	height:10px;
+}
+.snell{
+	font-family: Snell; 
+	font-size:40px;
+}
+
+.underline{
+	text-decoration: underline;
+}
+
+a{
+	color:black;
+}
+
+.underline:hover{
+	font-style: italic;
+	cursor: url("magnifier.png"), auto;
+}
+
+hr{
+	height:1px;
+	border-width:0;
+	color:black;
+	background-color:black;
+}
+
+.w1of2{
+	width:50%;
+}
+
+.indent{
+	padding-left: 350px;
+}
+
+.back{
+	height:40px;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.back:hover{
+	cursor: url("back.png"), auto;
+}
+
+
+
+
+
+
+
+/*start right*/
+
+.container{
+	display:flex;
+	flex-wrap:wrap;
+
+	width:100vw;
+	height:100vh;
+	padding: 20px;
+}
+
+.right{	
+	padding:10px;
+	border:1px black solid;
+	overflow:scroll;
+	height:100%;
+}
+
+.menu{	
+	border-top:1px black solid;
+	font-size:30px;
+	color:white;
+	font-style: italic;
+	-webkit-text-stroke: 1px black;
+	padding:10px;
+	border-bottom: 1px black solid
+}
+
+.m-2{
+	border-top:0px black solid;
+}
+
+.toggle{
+	font-size:30px;
+	padding-top:10px;
+	display: none;
+}
+
+.t-2
+{
+	padding-left: 10px;
+}
+
+.pic {
+	position:fixed;
+	z-index:10;
+	
+	display: none;
+}
+
+.pic:hover{
+cursor: url("ok.png"), auto;
+}
+
+.show {
+	display: block;
+}
+
+.p-1{top:10%;left:30%;}
+.p-1 img{width:150px;}
+
+.p-2{top:25%;left:20%;}
+.p-2 img{width:150px;}
+
+.p-3{top:40%;left:40%;}
+.p-3 img{width:150px;}
+
+.p-4{top:53%;left:28%;}
+.p-4 img{width:150px;}
+
+.p-5{bottom:5%;left:38%;}
+.p-5 img{width:150px;}
+
+.p-6{bottom:8%;left:23%;}
+.p-6 img{width:150px;}
+
+.p-7{top:48%;left:22%;}
+.p-7 img{width:150px;}
+
+.p-8{top:23%;left:35%;}
+.p-8 img{width:150px;}
+
+.p-9{top:13%;left:33%;}
+.p-9 img{width:150px;}
+
+.p-10{bottom:9%;left:35%;}
+.p-10 img{width:150px;}
+
+/*end right*/
+
+/*start left*/
+.left{
+	padding:10px;
+	border:1px black solid;
+	border-left:0px;
+	overflow:scroll;
+	height:100%;
+}
+
+.title{
+	text-align: center;
+	font-size: 80px;
+	font-style: italic;
+	-webkit-text-stroke: 1px black;
+	padding:10px;
+}
+
+
+
+.article{
+	cursor: url("magnifier.png"), auto;
+}
+
+
+
+
+
+
+
+
+
+
