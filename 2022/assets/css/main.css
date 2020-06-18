@@ -65,6 +65,7 @@ hr{
 	transform: rotate(360deg);
 	transition-duration: 2s;
 	 cursor: url("cursor1.png"), auto;
+	 animation-play-state: paused;
 }
 
 
@@ -110,7 +111,9 @@ hr{
 	font-style: italic;
 	-webkit-text-stroke: 1px black;
 	text-align: center;
-	padding-top: 100pt;	
+	display: flex;	
+	justify-content: center;
+	align-items: center;
 }
 
 .exploit{
@@ -119,7 +122,9 @@ hr{
 	font-style: italic;
 	-webkit-text-stroke: 1px black;
 	text-align: center;
-	padding-top: 100pt;	
+	display: flex;	
+	justify-content: center;
+	align-items: center;	
 }
 
 .pollute{
@@ -128,7 +133,9 @@ hr{
 	font-style: italic;
 	-webkit-text-stroke: 1px black;
 	text-align: center;
-	padding-top: 100pt;	
+	display: flex;	
+	justify-content: center;
+	align-items: center;	
 }
 
 .test{
@@ -137,7 +144,9 @@ hr{
 	font-style: italic;
 	-webkit-text-stroke: 1px black;
 	text-align: center;
-	padding-top: 100pt;	
+	display: flex;	
+	justify-content: center;
+	align-items: center;	
 }
 
 .hover{
