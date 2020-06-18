@@ -1,12 +1,17 @@
 body {
 	font-family: Helvetica,sans-serif;	
 	 cursor: url("recycle.png"), auto;
+	 height:100vh;
+	 width:100vw;
+	 padding:20px;
+	 
 }
 
 @font-face {
 	font-family: Snell; 
 	src: url(Snell.otf);
 }
+
 
 .heading{
 	font-size: 11vw;
@@ -55,18 +60,39 @@ body {
 	left:0px;
 	display: none;
 
-	background-color: black;
+	background-color: white;
 	height: 100vh;
 	width:100vw;
-	
+		
 }
+
+.back:hover{
+	cursor: url("back.png"), auto;
+}
+
+
 
 .red{
 	font-size:18vw;
-	color:red;
-	-webkit-text-stroke: 1px ;
+	color:white;
+	-webkit-text-stroke: 1px solid black ;
 }
 
 .image-container.active {
 	display: flex;
 }
+
+
+.back{
+	height:40px;
+	position: fixed;
+	top: 30px;
+	left:30px;
+}
+
+
+
+
+
+
+
