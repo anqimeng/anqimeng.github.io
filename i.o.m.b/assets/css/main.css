@@ -1,0 +1,31 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 32px;
+}
+
+.container{
+	width:40vw;
+	display: flex;
+	flex-wrap:wrap;	
+}
+
+
+
+.pad{
+	padding:10px;
+}
+
+.scroll{
+	width: 60vw;
+  height: 100vh;
+  right: 0;
+  top: 0;
+  position: fixed;
+  font-size:28px;
+  overflow: scroll;
+  background-color: black;
+}
+
+img{
+	width:60vw;
+}
