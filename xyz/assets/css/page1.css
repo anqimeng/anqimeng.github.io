@@ -1,0 +1,57 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 60px;
+	text-align: center;
+	height: 100vh;
+	background-color:black;
+}
+
+
+
+.info{
+	font-size:20vh;
+	text-align: center;
+	z-index:1;
+	color:white;
+
+	mix-blend-mode: difference;
+
+	position: fixed;
+    display: flex;
+    align-items: center;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;   
+}
+
+.messages{
+	font-size:11vh;
+	color:hotpink;
+	transform: skew(-10deg);
+
+	animation:change 5s infinite ;
+}
+
+@keyframes change {
+	0%{
+		transform:skew(-10deg);
+	}
+	50%{
+		transform:skew(10deg);
+	}
+	100%{
+		transform:skew(-10deg);
+	}
+}
+
+
+
+
+
+
+
+
+
+
+

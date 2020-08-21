@@ -1,0 +1,73 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+
+}
+
+a {
+	color:red;
+}
+
+
+.info{
+	padding-left:10px;
+	position: fixed;
+	text-align: left;
+	
+}
+
+.message{
+	width:50vw;
+	position:fixed;
+	text-align: right;
+	bottom:0px;
+	padding-right:10px;
+}
+
+.title{
+	font-size:10vh;
+}
+
+.words{
+	font-size:10vh;
+}
+
+
+.blur{
+	animation: blur 7s infinite;
+}
+
+@keyframes blur{
+	0%{filter:blur(200px);}
+	30%{filter:blur(0px);}
+	60%{filter:blur(0px);}
+	100%{filter: blur(200px);}
+}
+
+.clear{
+	animation: clear 7s infinite;
+}
+
+@keyframes clear{
+	0%{filter:blur(0px);}
+	50%{filter:blur(200px);}
+	80%{filter: blur(0px);}
+	100%{filter: blur(0px);}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

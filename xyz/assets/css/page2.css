@@ -1,0 +1,75 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 60px;
+	text-align: center;
+	height: 100vh;
+	width:100vw;
+	background: ;
+
+}
+
+
+
+.info{
+	font-size:20vh;
+	
+	z-index:;
+	color:black;
+	transform: skewY(10deg);
+	-webkit-text-stroke: 2px black;
+
+	position: fixed;
+    display: flex;
+    align-items: center;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;   
+}
+
+.messages{
+	filter: blur(5px);
+	font-size:25vh;
+	color:lime;
+	transform: skew(-10deg);
+	mix-blend-mode: difference;
+}
+
+
+.spotlight {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  //background: rgba(#000,.4);
+  background: radial-gradient(
+    50px 50px //サイズ
+    at //お約束
+    center center,//位置
+    transparent, //中央
+    transparent 100px, //中央〜ボカシ
+    rgba(#000,.6) 150px//ボカシ〜外周
+  );
+  opacity: 0;
+  animation: fadein 2s 1s 1 both;
+  z-index:3;
+}
+
+
+@keyframes fadein {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+
+
+
+
+
+
+
+
+
+
