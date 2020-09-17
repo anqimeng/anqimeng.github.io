@@ -1,0 +1,173 @@
+body {
+	height:100%;
+	font-size:30px;
+	color:blue;
+	font-family: helvetica;
+	background-color: #ffd7d8;
+	cursor:url(cursor.png),auto;
+}
+
+body::-webkit-scrollbar {
+  width: 15px;
+}
+ 
+body::-webkit-scrollbar-track {
+	background-color: blue;
+	border-radius: 10px;
+}
+ 
+body::-webkit-scrollbar-thumb {
+	border: 1px solid blue;
+  background-color: #ffd7d8;
+  border-radius: 10px;
+}
+
+a{color: blue;
+	text-decoration: none;}
+
+@font-face{
+	font-family:nostrav_stream;
+	src:url(NostravStream.otf);
+}
+
+@font-face{
+	font-family:nostrav_sett;
+	src:url(NostravSett.otf);
+}
+
+@font-face{
+	font-family:cirka;
+	src:url(Cirka-Light.otf);
+}
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.sidebar{
+	width:33.33%;
+	height:100%;
+	display:flex;
+	flex-wrap: wrap;
+}
+
+.title{
+	padding-left: 5px;
+	width:30%;
+	font-size:84px;
+	position: fixed;
+	top:0px;
+	letter-spacing: 0.1px;
+	z-index: 3;
+}
+
+.t-1{
+	font-family: nostrav_sett;
+	background-color: #ffd7d8;
+	color:transparent;
+	-webkit-text-stroke-width: 1px;
+  	-webkit-text-stroke-color: blue;
+}
+
+.t-2{
+	font-family: nostrav_stream;
+	font-size:80px;
+}
+
+.dying{
+	margin-left: 5px;
+	top:75px;
+	background-image: url(dying.jpg);
+	background-size: cover;
+	width:32.5%;
+	height:35%;
+	position: fixed;
+	z-index: 5;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 18px;
+	color:#ffd7d8;
+	cursor:url(cursor.png),auto;
+
+}
+
+.dying:hover{
+	letter-spacing: 50px;
+	color:blue;
+	transition-duration: 2s;
+}
+
+.nav{
+	padding-left: 10px;
+	position:fixed;
+	bottom:10%;
+	width:30%;
+	display: flex;
+	flex-wrap:wrap;
+	
+}
+
+.btn{
+	padding:5px;
+	margin-bottom:5px;
+
+	font-family: helvetica;
+	font-size: 25px;
+	-webkit-text-stroke-width: 0.8px;
+  	-webkit-text-stroke-color: blue;
+  	color:transparent;
+}
+
+.btn:hover{
+	-webkit-text-stroke-width: 0px;
+	color:blue;
+
+}
+
+.statement{
+	font-size:15px;
+	position:fixed;
+	bottom:0px;
+	padding:10px;
+	text-decoration: underline;
+	text-decoration-color: blue;
+}
+
+.img-container{
+	border:0.5px blue solid;
+	border-left:0.5px blue solid;
+	width:66.66%;
+	display: flex;
+	flex-wrap:wrap;
+}
+
+.item{
+	width:20%;
+	border:0.5px solid blue;
+	padding: 10px;
+}
+
+img{
+	width:100%;
+}
+
+.item.hide{
+	display:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

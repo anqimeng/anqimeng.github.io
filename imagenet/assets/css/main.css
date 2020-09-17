@@ -1,0 +1,84 @@
+body {
+	height:100vh;
+	color:blue;
+	font-family: helvetica;
+	background-color: #ffd7d8;
+	cursor:url(cursor.png),auto;
+}
+
+a{color: blue;
+	text-decoration: none;
+cursor:url(cursor.png),auto;}
+
+@font-face{
+	font-family:nostrav_stream;
+	src:url(NostravStream.otf);
+}
+
+@font-face{
+	font-family:nostrav_sett;
+	src:url(NostravSett.otf);
+}
+
+.container{
+	width: 100vw;
+	display:flex;
+    justify-content: center;
+}
+
+.title1{
+	font-family: nostrav_sett;
+	color:transparent;
+	-webkit-text-stroke-width: 1px;
+  	-webkit-text-stroke-color: blue;
+	font-size:36vh;
+	letter-spacing: 0.1px;
+}
+
+.title2{
+	font-family: nostrav_stream;
+	font-size:36vh;
+	letter-spacing: 0.1px;
+	position: fixed;
+	top: 0px;
+}
+
+
+.claim{
+	font-style: italic;
+	position: fixed;
+	bottom:0px;
+	font-size:15px;
+	width: 100vw;
+	text-align: center;
+	padding: 5px;
+}
+
+.dying{
+	color:#ffd7d8;
+	position:fixed;
+	bottom: 0px;
+	background-image: url(dying.jpg);
+	background-position: center;
+	background-size: cover;
+	height:68vh;
+	width:100vw;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.dying:hover{
+	letter-spacing: 50px;
+	color:blue;
+	transition-duration: 2s;
+}
+
+
+
+
+
+
+
+
+
