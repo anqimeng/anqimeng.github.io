@@ -396,6 +396,12 @@ img{
 	top:5px;	
 }
 
+.filter:hover{
+	-webkit-text-stroke: 1px black;
+	color: #d5efe3;
+	transition-duration: 0.1s;
+}
+
 .t-f{
 	font-size: 20px;
 	position:fixed;
