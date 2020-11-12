@@ -1,0 +1,286 @@
+body{
+	font-family: helvetica;
+	cursor:crosshair;
+}
+
+a{
+	cursor:help;
+}
+
+sup {
+    vertical-align: super;
+    font-size: smaller;
+} 
+
+.next{
+	position:fixed;
+	bottom:00px;
+	right:00px;
+	line-height:3vw;
+	padding-top:10px;
+	padding-right:10px;
+	width:50vw;
+	text-align: right;
+}
+
+.linear{
+	background-image:linear-gradient(rgba(255,255,255,0),rgba(255,255,255,0.4),rgba(255,255,255,0.7),rgba(255,255,255,1),rgba(255,255,255,1), rgba(255,255,255,1),rgba(255,255,255,1),rgba(255,255,255,1),rgba(255,255,255,1),rgba(255,255,255,1),rgba(255,255,255,1));	
+}
+
+.next a:hover{
+	text-decoration: underline;
+	color:black;
+}
+
+.previous{
+	line-height:3vw;
+	bottom:0px;
+	width:50vw;
+	padding-top:10px;
+	padding-left:10px;
+	position:fixed;
+}
+
+.previous a:hover{
+	text-decoration: underline;
+	color:black;
+}
+
+
+.container{
+	width:100vw;
+	height:100vh;
+	display:flex;
+	flex-wrap:nowrap;
+	padding-top:;
+}
+
+/*Start of Nav*/
+.nav-container{
+	height:100vh;
+	width:100vw;
+	position: fixed;
+	justify-content: center;
+	align-items: center;
+	display:flex;
+}
+
+.nav{
+	width:20vw;
+	padding-top:10px;
+	padding: 10px;
+	position: fixed;
+	top:0px;
+	overflow: scroll;
+	height:100%;
+	overflow-x: hidden;
+	z-index: 10;
+}
+
+.title{
+	padding-top:15px;
+	top:0px;
+	font-size:5.5vw;
+	text-align: center;
+	line-height: 4vw;
+	position: fixed;
+	background-image: linear-gradient(rgba(255,255,255,1),rgba(255,255,255,1),rgba(255,255,255,1),rgba(255,255,255,1),rgba(255,255,255,1),rgba(255,255,255,0.9),rgba(255,255,255,0.8),rgba(255,255,255,0.5), rgba(255,255,255,0));
+	padding-bottom: 40px;
+}
+
+.content p{
+	text-transform: uppercase;
+	text-align: justify;
+    -moz-text-align-last: justify;
+    text-align-last: justify;
+ 	margin-bottom: 40px;  
+}
+
+.k-toggle{
+	display:none;
+}
+
+.keyword{
+	font-size:1.2vw;
+	cursor:help;
+	padding-top: 20vh;
+}
+
+
+
+
+/*Utility Classes*/
+
+.indent{
+	margin-left:2.5vw ;
+}
+
+.mt-30{
+	margin-top: 30px;
+}
+
+.ls{
+	letter-spacing:1.7vw;
+}
+
+.w-20{
+	width:20%;
+	height:100vh;
+}
+
+.w-40{
+	width:40%;
+	height:100vh;
+}
+
+
+
+
+/*Start of Style Guide*/
+
+p{
+	font-size:1.1vw;
+	line-height:1.3vw;
+}
+
+a{
+	color:black;
+	text-transform: uppercase;
+	text-align: justify;
+    text-justify: inter-word;
+    text-decoration: none;
+}
+
+a:hover{
+	color:lightgrey;
+	transition: 0.2s;
+}
+
+.heading{
+	width:50%;
+	height:fit-content;
+}
+
+.heading p{
+	text-transform: uppercase;
+	text-align: justify;
+    -moz-text-align-last: justify;
+    text-align-last: justify; 
+}
+
+.img-heading{
+	position:fixed;
+	top:10px;
+	left:10px;
+	width:20%;
+	height:fit-content;
+	z-index: 10;
+}
+
+.img-heading p{
+	text-transform: uppercase;
+	text-align: justify;
+    text-align-last: justify; 
+}
+
+.article{
+	width:90%;
+}
+
+.article-right{
+	width:36%;
+	right:10px;
+	position: fixed;
+	overflow:scroll;
+}
+
+.footnote{
+	font-style: italic;
+	font-size:0.8vw;
+}
+
+.footnote p{
+		font-size:0.8vw;
+}
+
+
+
+
+
+
+
+
+
+
+/* Start of 01–01*/
+
+.left{
+	padding:10px;
+	display:flex;
+	flex-wrap:wrap;
+	overflow: scroll;
+}
+
+.right{
+	padding:10px;
+	display:flex;
+	flex-wrap:wrap;	
+	overflow: scroll;
+}
+
+.img-left img{
+	width:100%;
+	display:block;
+}
+
+.img-right img{
+	width:100%;
+	display:block;	
+}
+
+.inspirational{
+	width:36%;
+	right:10px;
+	position: fixed;
+	overflow:scroll;
+
+}
+
+.inspirational img{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* End of 01–01*/
+
+
+
+
+
+
+

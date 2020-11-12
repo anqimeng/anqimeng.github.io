@@ -1,0 +1,77 @@
+body{
+	font-family: helvetica;
+	cursor:crosshair;
+
+}
+
+a{
+	cursor:help;
+}
+
+.container{
+	width:100vw;
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.w1o3{
+	width:33.33%;
+	height:100vh;
+	padding: 10px
+
+}
+
+
+.title{
+	font-size:8vw;
+	text-align:center;	
+}
+
+.no{
+	text-align: center;
+	font-size:5vw;
+	padding-bottom:5vw;
+}
+
+p{
+	text-transform: uppercase;
+	font-size:2vw;
+	color:;
+	mix-blend-mode: difference;
+}
+
+a{
+	text-decoration: none;
+	color:black;
+}
+
+a:hover{
+	mix-blend-mode: difference;
+	color:white;
+	transition-duration: 0.5s;
+}
+
+.indent{
+	margin-left:3vw;
+}
+
+
+.i-1{
+	background-image: url(burn-3.jpg);
+	background-size:cover;
+}
+
+
+.i-2{
+	background-image: url(plastic-3.jpg);
+	background-size:cover;
+}
+
+.i-3{
+	background-image: url(hanne-2.jpg);
+	background-size:cover;
+}
+
+
+
+
