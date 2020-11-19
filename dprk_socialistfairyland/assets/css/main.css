@@ -39,6 +39,7 @@ p{
 .active{
 	padding:5px;
 	width:100vw;
+	height:5vh;
 	position: fixed;
 	display:flex;
 	justify-content: space-between;
@@ -46,7 +47,7 @@ p{
 }
 
 .active img{
-	width:4.5%;
+	height:100%;
 }
 
 .hide{
@@ -213,7 +214,8 @@ p{
 	line-height: 2.8vw;
 }
 
-.active img{width:6vw;}
+.active{height:3.5vh;}
+
 
 .article{
 	padding:5px;
@@ -292,9 +294,7 @@ p{
 	line-height: 20px;
 }
 
-.active img{
-	width:10%;
-}
+.active{height:30px;}
 
 .container{
 	height:100vh;
