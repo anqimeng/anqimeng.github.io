@@ -38,7 +38,7 @@ p{
 
 .active{
 	padding:5px;
-	width:100vw;s
+	width:100vw;
 	height:2.5vw;
 	position: fixed;
 	display:flex;
@@ -259,7 +259,7 @@ p{
 	color:black;
 	background-color: white;
 	padding:5px;
-	font-size:10px;
+	font-size:16px;
 }
 }
 
