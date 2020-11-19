@@ -39,7 +39,7 @@ p{
 .active{
 	padding:5px;
 	width:100vw;
-	height:5vh;
+	height:3vw;
 	position: fixed;
 	display:flex;
 	justify-content: space-between;
