@@ -1,7 +1,6 @@
 body{
 	font-family: helvetica;
 	cursor:crosshair;
-
 }
 
 a{
@@ -45,32 +44,163 @@ a{
 	color:black;
 }
 
-a:hover{
+p:hover{
 	mix-blend-mode: difference;
 	color:white;
 	transition-duration: 0.5s;
 }
 
 .indent{
-	margin-left:3vw;
+	padding-left:3vw;
 }
 
 
 .i-1{
 	background-image: url(burn-3.jpg);
 	background-size:cover;
+	background-position: center;
 }
 
 
 .i-2{
 	background-image: url(plastic-3.jpg);
 	background-size:cover;
+	background-position: center;
 }
 
 .i-3{
 	background-image: url(hanne-2.jpg);
 	background-size:cover;
+	background-position: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 800px){
+.container{
+	width:100vw;
+	height:100vh;
+	display:flex;
+	flex-wrap:nowrap;
+}
+
+.w1o3{
+	width:33.33vw;
+	height:100vh;
+	padding: 10px;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+.title{
+	font-size:9vw;
+	text-align:initial;	
+}
+
+.indent{
+	padding-left:50px;
+}
+
+.no{
+	text-align: initial;
+	font-size:8vw;
+	padding-bottom:7vw;
+}
+
+p{	
+	text-transform: uppercase;
+	font-size:20px;
+	color:transparent;
+	mix-blend-mode: difference;
+	width:100%;
+}
+
+a{
+	text-decoration: none;
+	color:black;
+}
+
+a:hover{
+	mix-blend-mode: normal;
+	color:black;
+	transition-duration: 0.5s;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 500px){
+.container{
+	width:100vw;
+	display:block;
+	flex-wrap:nowrap;
+}
+
+.w1o3{
+	width:100vw;
+	height:33.33vh;padding: 0px;
+}
+
+
+.title{
+	font-size:100px;
+	text-align:center;	
+}
+
+.no{
+	text-align: center;
+	font-size:70px;
+	padding-bottom:5vw;
+}
+
+p{
+	display:none;
+}
+
+.indent{
+	padding-left:30px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
